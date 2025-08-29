@@ -1,0 +1,122 @@
+/* Global Styles */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.8;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, #6A75CA, #4F5BA6);
+  color: white;
+  padding: 80px 20px;
+  text-align: left;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  max-width: 700px;
+}
+
+/* Profile Image */
+.profile-image {
+  max-width: 220px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.profile-image:hover {
+  transform: scale(1.05);
+}
+
+/* Section Layout */
+section {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 40px 30px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Colored Background Sections */
+.education { background-color: #eef2ff; }
+.projects { background-color: #f7fbff; }
+
+/* List Styles */
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Links */
+a {
+  color: #4F5BA6;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Section */
+.contact {
+  background: #6A75CA;
+  color: white;
+  text-align: center;
+}
+
+.contact a {
+  color: #fff;
+  font-weight: 600;
+}
+
+.contact a:hover {
+  color: #dcdcff;
+}
+
+/* Spacing for icons */
+.contact i {
+  margin-right: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-section {
+    text-align: center;
+  }
+
+  .hero-section img {
+    margin-top: 20px;
+  }
+
+  .profile-image {
+    max-width: 180px;
+  }
+}
